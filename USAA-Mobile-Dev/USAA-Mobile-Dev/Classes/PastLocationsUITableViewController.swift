@@ -34,18 +34,22 @@ class PastLocationsUITableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 3
+        //return locations.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LocationCell", for: indexPath)
 
         // Configure the cell...
-
+        //Time Saved
+        cell.detailTextLabel?.text = "Time"
+        //Location Name
+        cell.textLabel?.text = "Name"
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

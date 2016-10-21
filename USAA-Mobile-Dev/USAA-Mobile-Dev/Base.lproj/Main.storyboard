@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="bcO-5s-mRY">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="LocationCell" selectionStyle="default" indentationWidth="10" id="bcO-5s-mRY">
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bcO-5s-mRY" id="hNW-Uq-Moa">
@@ -54,27 +54,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuT-qF-ENC">
-                                <frame key="frameInset" minX="16" minY="72" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuT-qF-ENC">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="X Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSU-QS-uX3">
-                                <frame key="frameInset" minX="16" minY="110" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="X Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSU-QS-uX3">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Y Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Skv-ue-mfb">
-                                <frame key="frameInset" minX="16" minY="148" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Y Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Skv-ue-mfb">
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="tMm-MX-LB1">
+                            <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="tMm-MX-LB1">
                                 <frame key="frameInset" minX="16" minY="186" height="60" maxX="16"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <date key="date" timeIntervalSinceReferenceDate="498703269.02134502">
                                     <!--2016-10-21 00:41:09 +0000-->
                                 </date>
@@ -82,10 +78,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Skv-ue-mfb" firstAttribute="trailing" secondItem="tMm-MX-LB1" secondAttribute="trailing" id="0vZ-1h-xzv"/>
+                            <constraint firstItem="kuT-qF-ENC" firstAttribute="top" secondItem="vzG-3E-e85" secondAttribute="bottom" constant="8" symbolic="YES" id="7KQ-Gm-9fK"/>
                             <constraint firstItem="Skv-ue-mfb" firstAttribute="trailing" secondItem="bq6-dm-zJQ" secondAttribute="trailingMargin" id="D2U-AM-Q7Y"/>
+                            <constraint firstItem="Skv-ue-mfb" firstAttribute="leading" secondItem="tMm-MX-LB1" secondAttribute="leading" id="FJN-Vo-p4C"/>
+                            <constraint firstItem="Skv-ue-mfb" firstAttribute="top" secondItem="xSU-QS-uX3" secondAttribute="bottom" constant="8" symbolic="YES" id="VD5-S0-THo"/>
                             <constraint firstItem="xSU-QS-uX3" firstAttribute="leading" secondItem="bq6-dm-zJQ" secondAttribute="leadingMargin" id="YGJ-B4-L8X"/>
                             <constraint firstItem="kuT-qF-ENC" firstAttribute="trailing" secondItem="bq6-dm-zJQ" secondAttribute="trailingMargin" id="YbV-7j-X0y"/>
                             <constraint firstItem="kuT-qF-ENC" firstAttribute="leading" secondItem="bq6-dm-zJQ" secondAttribute="leadingMargin" id="cSx-SX-oHX"/>
+                            <constraint firstItem="xSU-QS-uX3" firstAttribute="top" secondItem="kuT-qF-ENC" secondAttribute="bottom" constant="8" symbolic="YES" id="fJd-Qh-FDA"/>
+                            <constraint firstItem="tMm-MX-LB1" firstAttribute="top" secondItem="Skv-ue-mfb" secondAttribute="bottom" constant="8" symbolic="YES" id="nfR-MK-uYD"/>
                             <constraint firstItem="xSU-QS-uX3" firstAttribute="trailing" secondItem="bq6-dm-zJQ" secondAttribute="trailingMargin" id="qtd-o4-7jR"/>
                             <constraint firstItem="Skv-ue-mfb" firstAttribute="leading" secondItem="bq6-dm-zJQ" secondAttribute="leadingMargin" id="wcQ-9d-wo0"/>
                         </constraints>
@@ -98,7 +100,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="OnSaveClicked" destination="I2N-Pp-2ID" id="KzA-Fr-Cst"/>
                         <outlet property="textFieldXCoord" destination="xSU-QS-uX3" id="zwZ-kr-LoH"/>
                         <outlet property="textFieldYCoord" destination="Skv-ue-mfb" id="fIY-nG-8ru"/>
                     </connections>
