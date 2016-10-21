@@ -8,6 +8,19 @@
 
 import UIKit
 
+struct LocationCoordinates
+{
+    let latitude : Double
+    let longitude : Double
+}
+
+struct LocationData
+{
+    let name : String
+    let location : LocationCoordinates
+    let time : Date
+}
+
 class GlobalUtils: NSObject
 {
     class var sharedInstance: GlobalUtils
