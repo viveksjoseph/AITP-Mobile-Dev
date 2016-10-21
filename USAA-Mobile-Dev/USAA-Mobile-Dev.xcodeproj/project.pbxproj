@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F34E81F1DB9980100EF6671 /* AddLocationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E81E1DB9980100EF6671 /* AddLocationUIView.swift */; };
+		2F34E8211DB9988B00EF6671 /* PastLocationsUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E8201DB9988B00EF6671 /* PastLocationsUITableViewController.swift */; };
 		D9D4CACF1DB98B9A00274CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4CACE1DB98B9A00274CC6 /* AppDelegate.swift */; };
 		D9D4CAD11DB98B9A00274CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4CAD01DB98B9A00274CC6 /* ViewController.swift */; };
 		D9D4CAD41DB98B9A00274CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D4CAD21DB98B9A00274CC6 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F34E81E1DB9980100EF6671 /* AddLocationUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationUIView.swift; sourceTree = "<group>"; };
+		2F34E8201DB9988B00EF6671 /* PastLocationsUITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastLocationsUITableViewController.swift; sourceTree = "<group>"; };
 		D9D4CACB1DB98B9A00274CC6 /* USAA-Mobile-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USAA-Mobile-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D4CACE1DB98B9A00274CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D4CAD01DB98B9A00274CC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		D9D4CAFC1DB98BE300274CC6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2F34E81E1DB9980100EF6671 /* AddLocationUIView.swift */,
+				2F34E8201DB9988B00EF6671 /* PastLocationsUITableViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -275,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F34E8211DB9988B00EF6671 /* PastLocationsUITableViewController.swift in Sources */,
 				D9D4CAD11DB98B9A00274CC6 /* ViewController.swift in Sources */,
+				2F34E81F1DB9980100EF6671 /* AddLocationUIView.swift in Sources */,
 				D9D4CACF1DB98B9A00274CC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +529,7 @@
 				D9D4CAF51DB98B9A00274CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D4CAF61DB98B9A00274CC6 /* Build configuration list for PBXNativeTarget "USAA-Mobile-DevTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +538,7 @@
 				D9D4CAF81DB98B9A00274CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D4CAF91DB98B9A00274CC6 /* Build configuration list for PBXNativeTarget "USAA-Mobile-DevUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +547,7 @@
 				D9D4CAFB1DB98B9A00274CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
