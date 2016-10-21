@@ -14,6 +14,7 @@
 		D9D4CAD91DB98B9A00274CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D4CAD71DB98B9A00274CC6 /* LaunchScreen.storyboard */; };
 		D9D4CAE41DB98B9A00274CC6 /* USAA_Mobile_DevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4CAE31DB98B9A00274CC6 /* USAA_Mobile_DevTests.swift */; };
 		D9D4CAEF1DB98B9A00274CC6 /* USAA_Mobile_DevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4CAEE1DB98B9A00274CC6 /* USAA_Mobile_DevUITests.swift */; };
+		D9D4CB011DB9958800274CC6 /* Russ Hanneman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9D4CB001DB9958800274CC6 /* Russ Hanneman.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D9D4CAEA1DB98B9A00274CC6 /* USAA-Mobile-DevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USAA-Mobile-DevUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D4CAEE1DB98B9A00274CC6 /* USAA_Mobile_DevUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USAA_Mobile_DevUITests.swift; sourceTree = "<group>"; };
 		D9D4CAF01DB98B9A00274CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D4CB001DB9958800274CC6 /* Russ Hanneman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Russ Hanneman.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		D9D4CAFD1DB98BE300274CC6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9D4CB001DB9958800274CC6 /* Russ Hanneman.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				D9D4CAD91DB98B9A00274CC6 /* LaunchScreen.storyboard in Resources */,
 				D9D4CAD61DB98B9A00274CC6 /* Assets.xcassets in Resources */,
 				D9D4CAD41DB98B9A00274CC6 /* Main.storyboard in Resources */,
+				D9D4CB011DB9958800274CC6 /* Russ Hanneman.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +525,7 @@
 				D9D4CAF51DB98B9A00274CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D4CAF61DB98B9A00274CC6 /* Build configuration list for PBXNativeTarget "USAA-Mobile-DevTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +534,7 @@
 				D9D4CAF81DB98B9A00274CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D4CAF91DB98B9A00274CC6 /* Build configuration list for PBXNativeTarget "USAA-Mobile-DevUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +543,7 @@
 				D9D4CAFB1DB98B9A00274CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
