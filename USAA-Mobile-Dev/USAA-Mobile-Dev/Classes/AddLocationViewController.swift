@@ -15,6 +15,7 @@ class AddLocationViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        initalizeCoords()
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -27,8 +28,8 @@ class AddLocationViewController: UIViewController {
     
     func initalizeCoords() {
         //Set Cords for user view
-        textFieldXCoord.text = ""
-        textFieldYCoord.text = ""
+        textFieldXCoord.text = "Add X Coord Here"
+        textFieldYCoord.text = "Add Y Coord Here"
         
     }
 
