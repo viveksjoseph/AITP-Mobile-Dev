@@ -42,56 +42,66 @@
             </objects>
             <point key="canvasLocation" x="712.79999999999995" y="150.67466266866569"/>
         </scene>
-        <!--Add a location-->
+        <!--Title-->
         <scene sceneID="Sug-N5-5Cn">
             <objects>
-                <viewController id="oA6-zN-tAQ" sceneMemberID="viewController">
+                <viewController id="oA6-zN-tAQ" customClass="AddLocationViewController" customModule="USAA_Mobile_Dev" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vzG-3E-e85"/>
                         <viewControllerLayoutGuide type="bottom" id="Ujh-4h-xow"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="bq6-dm-zJQ" customClass="AddLocationUIView" customModule="USAA_Mobile_Dev" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="bq6-dm-zJQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuT-qF-ENC">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kuT-qF-ENC">
                                 <frame key="frameInset" minX="16" minY="72" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2TO-8v-g4e">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="X Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSU-QS-uX3">
                                 <frame key="frameInset" minX="16" minY="110" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="X Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xSU-QS-uX3">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Y Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Skv-ue-mfb">
                                 <frame key="frameInset" minX="16" minY="148" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Y Coordinate" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Skv-ue-mfb">
-                                <frame key="frameInset" minX="16" minY="186" width="343" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="tMm-MX-LB1">
+                                <frame key="frameInset" minX="16" minY="186" height="60" maxX="16"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="498703269.02134502">
+                                    <!--2016-10-21 00:41:09 +0000-->
+                                </date>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Skv-ue-mfb" firstAttribute="trailing" secondItem="bq6-dm-zJQ" secondAttribute="trailingMargin" id="D2U-AM-Q7Y"/>
-                            <constraint firstItem="2TO-8v-g4e" firstAttribute="trailing" secondItem="bq6-dm-zJQ" secondAttribute="trailingMargin" id="Vvi-Zd-HQa"/>
                             <constraint firstItem="xSU-QS-uX3" firstAttribute="leading" secondItem="bq6-dm-zJQ" secondAttribute="leadingMargin" id="YGJ-B4-L8X"/>
                             <constraint firstItem="kuT-qF-ENC" firstAttribute="trailing" secondItem="bq6-dm-zJQ" secondAttribute="trailingMargin" id="YbV-7j-X0y"/>
                             <constraint firstItem="kuT-qF-ENC" firstAttribute="leading" secondItem="bq6-dm-zJQ" secondAttribute="leadingMargin" id="cSx-SX-oHX"/>
                             <constraint firstItem="xSU-QS-uX3" firstAttribute="trailing" secondItem="bq6-dm-zJQ" secondAttribute="trailingMargin" id="qtd-o4-7jR"/>
                             <constraint firstItem="Skv-ue-mfb" firstAttribute="leading" secondItem="bq6-dm-zJQ" secondAttribute="leadingMargin" id="wcQ-9d-wo0"/>
-                            <constraint firstItem="2TO-8v-g4e" firstAttribute="leading" secondItem="bq6-dm-zJQ" secondAttribute="leadingMargin" id="xx9-lC-ZkO"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Add a location" id="Ecc-PC-khh"/>
+                    <navigationItem key="navigationItem" title="Title" id="fTg-Dg-h6q">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="I2N-Pp-2ID">
+                            <connections>
+                                <action selector="OnSaveClicked:" destination="oA6-zN-tAQ" id="Nwb-jn-YaS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="OnSaveClicked" destination="I2N-Pp-2ID" id="KzA-Fr-Cst"/>
+                        <outlet property="textFieldXCoord" destination="xSU-QS-uX3" id="zwZ-kr-LoH"/>
+                        <outlet property="textFieldYCoord" destination="Skv-ue-mfb" id="fIY-nG-8ru"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="svp-Nr-Pu8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

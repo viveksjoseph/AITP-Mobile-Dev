@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F34E81F1DB9980100EF6671 /* AddLocationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E81E1DB9980100EF6671 /* AddLocationUIView.swift */; };
 		2F34E8211DB9988B00EF6671 /* PastLocationsUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E8201DB9988B00EF6671 /* PastLocationsUITableViewController.swift */; };
+		2F34E8231DB99D2B00EF6671 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34E8221DB99D2B00EF6671 /* AddLocationViewController.swift */; };
 		D9D4CACF1DB98B9A00274CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4CACE1DB98B9A00274CC6 /* AppDelegate.swift */; };
 		D9D4CAD11DB98B9A00274CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4CAD01DB98B9A00274CC6 /* ViewController.swift */; };
 		D9D4CAD41DB98B9A00274CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D4CAD21DB98B9A00274CC6 /* Main.storyboard */; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F34E81E1DB9980100EF6671 /* AddLocationUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationUIView.swift; sourceTree = "<group>"; };
 		2F34E8201DB9988B00EF6671 /* PastLocationsUITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastLocationsUITableViewController.swift; sourceTree = "<group>"; };
+		2F34E8221DB99D2B00EF6671 /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
 		D9D4CACB1DB98B9A00274CC6 /* USAA-Mobile-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USAA-Mobile-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D4CACE1DB98B9A00274CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D4CAD01DB98B9A00274CC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 		D9D4CAFC1DB98BE300274CC6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2F34E81E1DB9980100EF6671 /* AddLocationUIView.swift */,
 				2F34E8201DB9988B00EF6671 /* PastLocationsUITableViewController.swift */,
+				2F34E8221DB99D2B00EF6671 /* AddLocationViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			files = (
 				2F34E8211DB9988B00EF6671 /* PastLocationsUITableViewController.swift in Sources */,
 				D9D4CAD11DB98B9A00274CC6 /* ViewController.swift in Sources */,
-				2F34E81F1DB9980100EF6671 /* AddLocationUIView.swift in Sources */,
+				2F34E8231DB99D2B00EF6671 /* AddLocationViewController.swift in Sources */,
 				D9D4CACF1DB98B9A00274CC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
